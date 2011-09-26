@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var Alert = require('../lib/alert');
+
+var alert = new Alert({
+  name: "alert-hook",
+  debug: true
+});
+
+alert.start();

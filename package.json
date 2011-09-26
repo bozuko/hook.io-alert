@@ -1,0 +1,22 @@
+{
+    "name": "hook.io-alert",
+    "description": "Handle alert events and send notifications over various protocols",
+    "version": "0.1.0",
+    "author": "andrewjstone",
+    "repository": {
+        "type": "git", 
+        "url": "http://github.com/bozuko/hook.io-alert.git"
+    },
+    "bin": {
+      "hookio-alert": "bin/alert"
+    },
+    "main": "./lib/alert",
+    "dependencies": {
+       "hook.io": "0.7.x",
+       "async" : "*",
+       "nodemailer" : "*"
+     }, 
+    "engine": [
+        "node 0.4.x" 
+    ]
+}
