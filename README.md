@@ -1,9 +1,10 @@
 # Hook.io Alert - Handle alerts from other hooks and distribute over various protocols
 
 ## Install
-git clone git@github.com:bozuko/alert.git
-cd alert
-npm install
+
+    git clone git@github.com:bozuko/alert.git
+    cd alert
+    npm install
 
 ## Run
 hookio-alert
